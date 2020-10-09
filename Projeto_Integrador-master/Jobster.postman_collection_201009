@@ -112,6 +112,35 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "http://localhost:8080/tema/2 ",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Analista de Sistemas Jr.\", \r\n    \"descricao\": \"CLT e Benefícios\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tema/2 ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tema",
+						"2 "
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
